@@ -68,6 +68,7 @@ section span{
     border: none;
     color: white;
     border-radius: 10px;
+    box-shadow: 1px 8px 4px 3px rgb(0, 0, 0, 0.1);
 }
 #cancel-btn{
     margin: 5px 15% 10px;
