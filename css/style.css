@@ -164,7 +164,7 @@ section{
         background-color: hsl(224, 23%, 55%, 0.1);
         height: 5em;
     }
-    .plans{font-size: 0.8em;}
+    .plans{font-size: 0.8em; margin: 0 0 0 20px;}
 }
 section img{
     margin: 5px 10px;
