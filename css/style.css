@@ -3,14 +3,14 @@
     padding: 0;
     margin: 0;
 }
-@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300&display=swap');
+
 html{
     background-image: url();
 }
-body{
+.card-body{
     width: 30%;
-    height: 40em;
-    margin: 5% 35%;
+    height: 35em;
+    margin: 5% 35% 0;
     justify-self: center;
     border: none;
     border-radius: 15px;
@@ -21,7 +21,7 @@ body{
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 12em;
+    height: 10em;
     border-radius: 15px 15px 0 0;
 }
 h3{
@@ -80,5 +80,79 @@ section span{
     text-decoration: none;
     border: none;
 }
-.attribution { font-size: 11px; text-align: center; position: relative;}
+.attribution { font-size: 11px; text-align: center; margin: 20px auto;}
 .attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px){
+    .card-body{
+        width: 90%;
+        height: 33em;
+        margin: 5% 5%;
+        justify-self: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 4px 5px 10px 3px rgb(0, 0, 0, 0.1);
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    p{
+        text-align: center;
+        color: rgb(50, 61, 75);
+        font-size: 14px;
+        padding: 0 20px 15px;
+    }
+    section{
+        display: flex;
+        padding: 10px 5px 15px;
+        margin: 1em 1.5em;
+        border: none;
+        border-radius: 5px;
+        background-color: hsl(224, 23%, 55%, 0.1);
+        height: 5em;
+    }
+    section img{
+        margin: 5px 5px;
+        width: 30;
+        height: 30;
+    }
+    .plans{
+        font-size: 12px;
+        margin-right: 0;
+    }
+    #proceed-btn{
+        margin-top: 10px;
+    }
+    #change-btn{
+        margin: 20px 0 5px 5em;
+        background-color: transparent;
+        font-size: small;
+        float: right;
+    }
+}
+/* @media (orientation: portrait) and (max-width: 800px){
+    .card-body{
+        width: 70%;
+        height: 35em;
+        margin: 5% 10%;
+        justify-self: center;
+        border: none;
+        border-radius: 15px;
+        box-shadow: 4px 5px 10px 3px rgb(0, 0, 0, 0.2);
+        font-family: 'Red Hat Display', sans-serif;
+    }
+    section header{
+        font-weight: 700;
+        margin: 7px 0;
+    }
+    #change-btn{
+        margin: 25px 4px 0 70px;
+        background-color: transparent;
+        font-size: small;
+    }
+    section{
+        height: 6em;
+        margin: 0 5%;
+    }
+    #proceed-btn{
+        margin: 10px 15% 0;
+    }
+} */
