@@ -22,9 +22,9 @@ body{
     box-shadow: 4px 5px 10px 3px rgb(0, 0, 0, 0.2);
     background-color: white;
 }
-@media (orientation: portrait) and (max-width: 800px){
+@media (orientation: portrait) and (max-width: 800px) and (min-width: 1px){
     .card-body{
-        width: 70%;
+        width: 80%;
         height: 35em;
         margin: 5% 10%;
         justify-self: center;
