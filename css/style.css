@@ -174,12 +174,12 @@ section{
 section img{
     margin: 5px 10px;
 }
-section header{
+section h4{
     font-weight: 700;
     margin: 10px 0;
 }
 @media (max-width: 800px) and (min-width: 650px){
-    section header{
+    section h4{
         font-weight: 700;
         margin: 7px 0;
     }
@@ -208,10 +208,13 @@ section span{
     width: 70%;
     background-color: hsl(245, 75%, 52%);
     border: none;
-    color: white;
     border-radius: 10px;
     box-shadow: 1px 8px 4px 3px rgb(0, 0, 0, 0.1);
     font-family: 'Red Hat Display', sans-serif;
+}
+#proceed-btn a{
+    color: white;
+    text-decoration: none;
 }
 #cancel-btn{
     margin: 5px 15% 10px;
@@ -219,10 +222,13 @@ section span{
     text-align: center;
     width: 70%;
     background-color: transparent;
-    color: grey;
     text-decoration: none;
     border: none;
     font-family: 'Red Hat Display', sans-serif;
+}
+#cancel-btn a{
+    color: grey;
+    text-decoration: none;
 }
 .attribution { font-size: 14px; text-align: center; margin: 20px auto;}
 .attribution a { color: hsl(228, 45%, 44%); }
