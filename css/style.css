@@ -207,14 +207,12 @@ section span{
     text-align: center;
     width: 70%;
     background-color: hsl(245, 75%, 52%);
+    color: white;
     border: none;
     border-radius: 10px;
     box-shadow: 1px 8px 4px 3px rgb(0, 0, 0, 0.1);
     font-family: 'Red Hat Display', sans-serif;
-}
-#proceed-btn a{
-    color: white;
-    text-decoration: none;
+    cursor: pointer;
 }
 #cancel-btn{
     margin: 5px 15% 10px;
@@ -222,13 +220,11 @@ section span{
     text-align: center;
     width: 70%;
     background-color: transparent;
+    color: grey;
     text-decoration: none;
     border: none;
     font-family: 'Red Hat Display', sans-serif;
-}
-#cancel-btn a{
-    color: grey;
-    text-decoration: none;
+    cursor: pointer;
 }
 .attribution { font-size: 14px; text-align: center; margin: 20px auto;}
 .attribution a { color: hsl(228, 45%, 44%); }
