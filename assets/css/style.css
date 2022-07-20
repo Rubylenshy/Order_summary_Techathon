@@ -13,9 +13,9 @@ body{
     font-family: 'Red Hat Display', sans-serif;
 }
 .card-body{
-    width: 30%;
-    height: 40em;
-    margin: 5% 35% 0;
+    width: 28%;
+    height: 35em;
+    margin: 5% 36% 0;
     justify-self: center;
     border: none;
     border-radius: 15px;
@@ -61,7 +61,7 @@ body{
 @media(max-width: 419px) and (min-width: 350px){
     .card-body{
         width: 90%;
-        height: 40em;
+        height: 35em;
         margin: 5% 5%;
         justify-self: center;
         border: none;
@@ -79,19 +79,21 @@ body{
     background-image: url(../images/illustration-hero.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 13em;
+    background-position: center;
+    height: 12em;
     border-radius: 15px 15px 0 0;
 }
-h2{
+h1{
     text-align: center;
     font-weight: 800;
-    margin: 40px 0 20px;
+    font-size: 18pt;
+    margin: 25px 0 20px;
 }
 p{
     text-align: center;
     color: rgb(50, 61, 75);
-    font-size: 16px;
-    padding: 0 60px 15px;
+    font-size: 14px;
+    padding: 0 60px 10px;
 }
 @media (max-width: 419px) and (min-width: 350px){
     p{
@@ -103,13 +105,13 @@ p{
 }
 section{
     display: inline-flex;
-    padding: 15px 20px 15px 10px;
+    padding: 10px 20px 15px 10px;
     margin: 0.5em 10%;
     width: 80%;
     border: none;
     border-radius: 5px;
     background-color: hsl(224, 23%, 55%, 0.1);
-    height: 6em;
+    height: 5.5em;
 }
 @media(max-width: 800px) and (min-width: 720px){
     section{
@@ -169,7 +171,7 @@ section{
         background-color: hsl(224, 23%, 55%, 0.1);
         height: 5em;
     }
-    .plans{font-size: 0.8em; margin: 0 0 0 20px;}
+    .plans{font-size: 0.8em; margin: 0 0 0 5px;}
 }
 section img{
     margin: 5px 10px;
@@ -191,18 +193,18 @@ section span{
     color: grey;
 }
 #change-btn{
-    margin: 25px 4px 0 100px;
+    margin: 25px 4px 0 70px;
     background-color: transparent;
     font-size: small;
 }
 @media (max-width: 579px) and (min-width: 500px){
-    #change-btn{ margin: 20px 0 20px 80px;}
+    #change-btn{ margin: 20px 0 20px 70px;}
 }
 @media (max-width: 419px) and (min-width: 350px){
-    #change-btn{ margin: 20px 0 20px 60px;}
+    #change-btn{ margin: 20px 0 20px 40px;}
 }
 #proceed-btn{
-    margin: 20px 15% 10px;
+    margin: 10px 15% 5px;
     padding: 15px 0;
     text-align: center;
     width: 70%;
@@ -215,7 +217,7 @@ section span{
     cursor: pointer;
 }
 #cancel-btn{
-    margin: 5px 15% 10px;
+    margin: 5px 15% 5px;
     padding: 10px 0;
     text-align: center;
     width: 70%;
@@ -249,8 +251,8 @@ section span{
     p{
         text-align: center;
         color: rgb(50, 61, 75);
-        font-size: 14px;
-        padding: 0 20px 15px;
+        font-size: 12px;
+        padding: 0 20px 5px;
     }
     section img{
         margin: 5px 5px;
@@ -260,9 +262,6 @@ section span{
     .plans{
         font-size: 15px;
         margin: 0 0.5em;
-    }
-    #proceed-btn{
-        margin-top: 10px;
     }
     #change-btn{
         margin: 20px 0 20px 60px;
